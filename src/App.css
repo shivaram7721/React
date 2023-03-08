@@ -1,0 +1,18 @@
+.App {
+  border: 2px solid black;
+  width: 20%;
+  margin: 15% 0 0 37%;
+  background-color: antiquewhite;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
+button {
+  margin: 10px 0 50px 10px;
+}
