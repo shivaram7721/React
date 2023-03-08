@@ -1,3 +1,6 @@
+
+//https://github.com/shivaram7721/React (github repo link)
+
 import './App.css';
 import {ComponentOne} from './componentOne'
 import {ComponentTwo} from './componentTwo'
@@ -14,7 +17,7 @@ function App() {
       <h1>{heading}</h1>
       <input type="text" placeholder='mobile ...'/>
       <br/><br/>
-      <input type="text" placeholder='password ...'/>
+      <input type="password" placeholder='password ...'/>
       <br/><br/>
       <button>{btnText}</button> */}
 

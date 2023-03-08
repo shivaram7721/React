@@ -1,7 +1,7 @@
 export function ComponentThree(props) {
 
     return (
-        <div class="btn">
+        <div className="btn">
             <button>{props.btnText}</button>
         </div>
     );
