@@ -1,0 +1,39 @@
+.form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  label {
+    text-align: left;
+    padding: 4px 0;
+    color: white;
+  }
+  
+  input {
+    margin: 2px 0;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  button {
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 20px;
+    border: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }

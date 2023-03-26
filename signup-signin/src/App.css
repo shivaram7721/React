@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 97.5vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(79deg, rgb(219, 172, 84), rgb(146, 93, 146), rgb(221, 62, 88));
+}
+
