@@ -1,0 +1,103 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  width: 700px;
+  height: 643px;
+  margin-left: 337px;
+  border: 3px solid rgba(29, 20, 20, 0.952);
+  border-radius: 20px;
+}
+
+
+.Container {
+  display : flex;
+  flex-direction : column;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: black;
+  border-radius: 10px;
+  color : white;
+}
+
+input {
+  width: fit-content;
+  margin: 20px 20px 20px 38px;
+  background-color: antiquewhite;
+  height: 25px;
+}
+
+.ulist {
+  list-style-type: none;
+  padding: 0;
+  margin : 0;
+}
+
+.addTask {
+  width: 90px;
+  margin: 3px 0 0 80px;
+  color: rgb(19, 26, 5);
+  background-color: rgb(13, 241, 116);
+  font-size: medium;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.tasks {
+  border: 2px solid white;
+  border-radius: 6px;
+  list-style: none;
+  text-decoration: none;
+  padding: 9px;
+  width: 250px;
+  margin-bottom: 7px;
+  background-color: rgb(20, 20, 20);
+  color: rgb(252, 246, 246);
+  font-weight: 600;
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.strike {
+  text-decoration: line-through;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 9px;
+  width: 250px;
+  margin-bottom: 7px;
+  background-color: aliceblue;
+  color : black;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.complete {
+  border: none;
+  border-radius: 3px;
+  padding: 3px;
+  background-color: blue;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.delete {
+  background-color: red;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  color: aliceblue;
+}
+
