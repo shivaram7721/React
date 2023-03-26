@@ -1,0 +1,17 @@
+.headerContainer {
+    width: 1000px;
+    margin-left: 20px;
+}
+
+.headerHead {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.headerPara {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0;
+}

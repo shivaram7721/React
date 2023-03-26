@@ -1,0 +1,23 @@
+.boardRow {
+    background-color: rgb(252, 247, 247);
+    display: flex;
+    justify-content: center;
+}
+
+.status {
+    margin: 35px 0 35px 600px;
+    padding: 5px;
+    background-color: antiquewhite;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 700;
+    color: blue;
+}
+
+.restart {
+    border: none;
+    padding: 10px;
+    background-color: rgb(55, 95, 128);
+    color: white;
+    border-radius: 5px;
+}

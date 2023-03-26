@@ -1,0 +1,56 @@
+.scrollDiv {
+    width: 1200px;
+    height: 330px;
+    overflow-x: scroll;
+}
+
+.scrollDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.profiles {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 2600px;
+    height: 300px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(232, 236, 240);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    width: 100px;
+    height: 90px;
+    border-radius: 150px;
+    margin: -10px 0 11px 0;
+}
+
+h4 {
+    margin:3px 0 3px 0;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.spanOne {
+    margin: 3px 3px 3px 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.spanTwo {
+    margin: 3px 3px 3px 3px;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+}
