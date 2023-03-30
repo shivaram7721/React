@@ -1,0 +1,52 @@
+.formContainer, .loginForm, .registerForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(79deg, rgb(44, 51, 92), rgb(85, 37, 197),rgb(24, 15, 75));
+    height: 589px;
+  }
+  
+  .formContainer {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(143, 197, 197);
+    width: 400px;
+  }
+  
+  label {
+    text-align: left;
+    padding: 4px 0;
+    color: rgb(10, 10, 10);
+    font-weight: 500;
+  }
+  
+  input {
+    margin: 2px 0;
+    border: 2px solid;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(38, 87, 129);
+    padding: 20px;
+    border: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .linkBtn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
