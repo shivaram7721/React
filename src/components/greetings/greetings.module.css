@@ -1,0 +1,14 @@
+.btn {
+    border: none;
+    background-color: rgb(66, 196, 178);
+    color: white;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.greetHead {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
