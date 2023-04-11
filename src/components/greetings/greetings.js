@@ -16,7 +16,7 @@ export function Greetings() {
         setGreet(greets[index+1])
         if(index>=greets.length) {
             setIndex(0)
-            setGreet(greets[index])
+            setGreet(greets[0])
         } else {
             setIndex(index+1)
         }
